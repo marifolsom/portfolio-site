@@ -5,7 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="container contact">
-        <h1 className="page-title">Contact</h1>
+        {/* <h2 className="page-title">CONTACT</h2> */}
         <p>To get in touch, feel free to reach out with an <a href="mailto:marifolsom@gmail.com">email</a>!</p>
       </div>
     )

@@ -1,11 +1,27 @@
-body, html {
+body,
+html {
   font-family: "Avenir", "Helvetica", sans-serif;
   background-color: #f7f7f7;
   color: #393E41;
 }
 
+.site-title,
+.nav-link,
+nav {
+  letter-spacing: 4px;
+  text-align: center;
+  color: #d8d8d8;
+}
+
 .nav-link {
-  padding-right: 10px;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #393E41;
 }
 
 .site-container {
@@ -15,4 +31,40 @@ body, html {
 .skills-container {
   display: flex;
   justify-content: space-between;
+}
+
+.project-section {
+  padding: 5px 0;
+}
+
+.palettable img,
+.weather-app img {
+  height: 500px;
+}
+
+.calendar-app img,
+.next-episode img,
+.donut-touch img {
+  width: 800px;
+}
+
+.palettable .project-info,
+.weather-app .project-info {
+  display: flex;
+}
+
+.palettable .project-desc,
+.weather-app .project-desc {
+  flex-grow: 1;
+  padding: 0 30px;
+}
+
+a {
+  color: #949494;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #137572;
 }

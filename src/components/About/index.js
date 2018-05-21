@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div className="container about">
-        <h1 className="page-title">About</h1>
+        {/* <h2 className="page-title">ABOUT</h2> */}
         <p>I’m a digital artist and web developer, passionate about good design and intuitive user experience. I take pleasure in going beyond the basics, delving into different solutions to recreate what I’m envisioning in my head. I believe that there is no end to what you can learn, so long as you put in the effort to learn it.</p>
 
         <div className="skills-container">

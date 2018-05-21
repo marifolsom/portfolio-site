@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div className="site-container">
-          <h1 className="site-title">Marisa Folsom</h1>
+          <h1 className="site-title">MARISA FOLSOM</h1>
           <Navbar />
           <Route exact path="/" render={() => <Redirect to="/projects"/>} />
           <Route exact path="/projects" component={Projects} />
