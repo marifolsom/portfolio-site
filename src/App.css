@@ -1,3 +1,4 @@
+/* General */
 body,
 html {
   font-family: "Avenir", "Helvetica", sans-serif;
@@ -5,6 +6,26 @@ html {
   color: #393E41;
 }
 
+.site-container {
+  padding: 50px 200px;
+}
+
+a {
+  color: #949494;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #137572;
+}
+
+.container {
+  padding: 40px 0;
+}
+
+
+/* Site title and navbar */
 .site-title,
 .nav-link,
 nav {
@@ -28,17 +49,14 @@ nav {
   color: #393E41;
 }
 
-.site-container {
-  padding: 50px 200px;
+
+/* Project page */
+.project-title {
+  margin-top: 30px;
 }
 
-.skills-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.project-section {
-  padding: 5px 0;
+.first {
+  margin-top: 0;
 }
 
 .palettable img,
@@ -49,26 +67,54 @@ nav {
 .calendar-app img,
 .next-episode img,
 .donut-touch img {
-  width: 800px;
+  width: 500px;
 }
 
-.palettable .project-info,
-.weather-app .project-info {
+.project-info {
   display: flex;
+  justify-content: space-between;
 }
 
-.palettable .project-desc,
-.weather-app .project-desc {
+.project-desc {
   flex-grow: 1;
-  padding: 0 30px;
+  margin-top: 0;
 }
 
-a {
-  color: #949494;
-  text-decoration: underline;
+.palettable img,
+.next-episode img,
+.donut-touch img {
+  padding-right: 20px;
 }
 
-a:hover {
-  text-decoration: underline;
-  color: #137572;
+/* Alternate which side the app screenshot is on */
+.calendar-app .project-info,
+.weather-app .project-info {
+  flex-direction: row-reverse;
+}
+
+.calendar-app .project-desc,
+.weather-app .project-desc {
+  order: 1;
+}
+
+.calendar-app img,
+.weather-app img {
+  padding-left: 20px;
+}
+
+
+/* About page */
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about img {
+  width: 250px;
+}
+
+
+/* Contact page */
+.contact p {
+  margin-top: 0;
 }
