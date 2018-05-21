@@ -60,6 +60,11 @@ nav {
   margin-top: 0;
 }
 
+.projects img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .palettable img,
 .weather-app img {
   height: 500px;
@@ -68,7 +73,7 @@ nav {
 .calendar-app img,
 .next-episode img,
 .donut-touch img {
-  width: 500px;
+  width: 560px;
 }
 
 .project-info {
@@ -84,7 +89,7 @@ nav {
 .palettable img,
 .next-episode img,
 .donut-touch img {
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 /* Alternate which side the app screenshot is on */
@@ -100,7 +105,11 @@ nav {
 
 .calendar-app img,
 .weather-app img {
-  padding-left: 20px;
+  padding-left: 30px;
+}
+
+.technology {
+  padding-right: 20px;
 }
 
 
@@ -111,7 +120,7 @@ nav {
 
 .about-me img {
   height: 250px;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 .about-me p {

@@ -8,7 +8,7 @@ class About extends Component {
         {/* <h2 className="page-title">ABOUT</h2> */}
         <div className="about-me">
           <img src={require("../../assets/img/about.JPG")} alt="Weather App Homepage"/>
-          <p>I’m a digital artist and web developer, passionate about good design and intuitive user experience. I take pleasure in going beyond the basics, delving into different solutions to recreate what I’m envisioning in my head. I believe that there is no end to what you can learn, so long as you put in the effort to learn it.</p>
+          <p>Hi! I’m Marisa. I'm a digital artist and web developer, passionate about good design and intuitive user experience. I take pleasure in going beyond the basics, delving into different solutions to recreate what I’m envisioning in my head. I believe that there is no end to what you can learn, so long as you put in the effort to learn it.</p>
         </div>
 
         <div className="skills-container">
