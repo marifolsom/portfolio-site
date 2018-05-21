@@ -13,10 +13,10 @@ class App extends Component {
         <div className="site-container">
           <h1 className="site-title">Marisa Folsom</h1>
           <Navbar />
-          <Route exact path="portfolio" render={() => <Redirect to="portfolio/projects"/>} />
-          <Route exact path="portfolio/projects" component={Projects} />
-          <Route exact path="portfolio/about" component={About} />
-          <Route exact path="portfolio/contact" component={Contact} />
+          <Route exact path="/" render={() => <Redirect to="/projects"/>} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
         </div>
       </Router>
     )
