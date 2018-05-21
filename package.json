@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-website",
-  "homepage": "http://marifolsom.github.io/portfolio-website",
+  "name": "portfolio",
+  "homepage": "http://marifolsom.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
