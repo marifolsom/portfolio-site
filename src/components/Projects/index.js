@@ -7,7 +7,7 @@ class Projects extends Component {
       <div className="container projects">
         {/* <h2 className="page-title">PROJECTS</h2> */}
         <div className="project-section palettable">
-          <h3 className="project-title first">Palettable</h3>
+          <h2 className="project-title first">PALETTABLE</h2>
           <div className="project-info">
             <img src={require("../../assets/img/app-screenshots/palettable-discover.png")} alt="Palettable Discover Page"/>
             <div>
@@ -18,7 +18,7 @@ class Projects extends Component {
         </div>
 
         <div className="project-section calendar-app">
-          <h3 className="project-title">Calendar</h3>
+          <h2 className="project-title">CALENDAR</h2>
           <div className="project-info">
             <a href="https://still-earth-11122.herokuapp.com/" target="_blank">
               <img src={require("../../assets/img/app-screenshots/calendar-app.png")} alt="Calendar App Homepage"/>
@@ -31,7 +31,7 @@ class Projects extends Component {
         </div>
 
         <div className="project-section next-episode">
-          <h3 className="project-title">Next Episode</h3>
+          <h2 className="project-title">NEXT EPISODE</h2>
           <div className="project-info">
             <a href="https://next-episode-app.herokuapp.com/" target="_blank">
               <img src={require("../../assets/img/app-screenshots/next-episode-home.png")} alt="Next Episode Homepage"/>
@@ -44,7 +44,7 @@ class Projects extends Component {
         </div>
 
         <div className="project-section weather-app">
-          <h3 className="project-title">Weather App</h3>
+          <h2 className="project-title">WEATHER APP</h2>
           <div className="project-info">
             <a href="http://marifolsom-weatherapp.bitballoon.com/" target="_blank">
               <img src={require("../../assets/img/app-screenshots/weather-app.png")} alt="Weather App Homepage"/>
@@ -57,7 +57,7 @@ class Projects extends Component {
         </div>
 
         <div className="project-section donut-touch">
-          <h3 className="project-title">Donut Touch</h3>
+          <h2 className="project-title">DONUT TOUCH</h2>
           <div className="project-info">
             <a href="http://donuttouch.bitballoon.com/" target="_blank">
               <img src={require("../../assets/img/app-screenshots/donut-touch.png")} alt="Donut Touch Level 1"/>
