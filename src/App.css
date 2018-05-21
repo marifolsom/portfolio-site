@@ -1,28 +1,18 @@
-.App {
-  text-align: center;
+body, html {
+  font-family: "Avenir", "Helvetica", sans-serif;
+  background-color: #f7f7f7;
+  color: #393E41;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.nav-link {
+  padding-right: 10px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.site-container {
+  padding: 50px 200px;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.skills-container {
+  display: flex;
+  justify-content: space-between;
 }
