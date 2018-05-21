@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class Projects extends Component {
   render() {
-    console.log(this.props.location.pathname);
     return (
       <div className="container projects">
         {/* <h2 className="page-title">PROJECTS</h2> */}
