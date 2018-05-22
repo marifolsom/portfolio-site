@@ -55,8 +55,9 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="buttons">
-                <button>Visit App</button>
-                <button>GitHub Repo</button>
+                <span className="button">
+                  <a href="" target="_blank">GitHub Repo</a>
+                </span>
               </div>
             </div>
           </div>
@@ -129,8 +130,12 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="buttons">
-                <button>Visit App</button>
-                <button>GitHub Repo</button>
+                <span className="button">
+                  <a href="https://still-earth-11122.herokuapp.com/" target="_blank">Visit App</a>
+                </span>
+                <span className="button">
+                  <a href="" target="_blank">GitHub Repo</a>
+                </span>
               </div>
             </div>
           </div>
@@ -198,8 +203,12 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="buttons">
-                <button>Visit App</button>
-                <button>GitHub Repo</button>
+                <span className="button">
+                  <a href="https://next-episode-app.herokuapp.com/" target="_blank">Visit App</a>
+                </span>
+                <span className="button">
+                  <a href="" target="_blank">GitHub Repo</a>
+                </span>
               </div>
             </div>
           </div>
@@ -212,7 +221,7 @@ class Projects extends Component {
               <img src={require("../../assets/img/app-screenshots/weather-app.png")} alt="Weather App Homepage"/>
             </a>
             <div>
-              <p className="project-desc">Minimal Weather is a simply designed weather app. It's minimal interface allows users to enter a zipcode, displaying the current temperature and weather, minimum and maximum temperatures of the day, a five-day forecast, and the ability to toggle between celcius and farenheit.</p>
+              <p className="project-desc">Minimal Weather is a simply designed weather app. Its minimal interface allows users to enter a zipcode, displaying the current temperature and weather, minimum and maximum temperatures of the day, a five-day forecast, and the ability to toggle between celcius and farenheit.</p>
               <div className="built-with">
                 <div className="technology">
                   <nobr>
@@ -261,8 +270,12 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="buttons">
-                <button>Visit App</button>
-                <button>GitHub Repo</button>
+                <span className="button">
+                  <a href="http://marifolsom-weatherapp.bitballoon.com/" target="_blank">Visit App</a>
+                </span>
+                <span className="button">
+                  <a href="" target="_blank">GitHub Repo</a>
+                </span>
               </div>
             </div>
           </div>
@@ -311,8 +324,12 @@ class Projects extends Component {
                 </div>
               </div>
               <div className="buttons">
-                <button>Visit App</button>
-                <button>GitHub Repo</button>
+                <span className="button">
+                  <a href="http://donuttouch.bitballoon.com/" target="_blank">Visit App</a>
+                </span>
+                <span className="button">
+                  <a href="" target="_blank">GitHub Repo</a>
+                </span>
               </div>
             </div>
           </div>

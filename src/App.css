@@ -2,12 +2,15 @@
 body,
 html {
   font-family: "Avenir", "Helvetica", sans-serif;
+  width: 100%;
   background-color: #f7f7f7;
   color: #393E41;
 }
 
 .site-container {
-  padding: 50px 200px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 40px;
 }
 
 a {
@@ -22,6 +25,7 @@ a:hover {
 
 .container {
   padding: 40px 0;
+  margin: 0 auto;
 }
 
 
@@ -42,7 +46,7 @@ nav {
 
 .nav-link:hover {
   text-decoration: none;
-  color: #393E41;
+  color: #137572;
 }
 
 .is-active {
@@ -53,16 +57,13 @@ nav {
 /* Project page */
 .project-title {
   margin-top: 60px;
+  padding-bottom: 10px;
   letter-spacing: 4px;
+  border-bottom: 1px solid #393E41;
 }
 
 .first {
   margin-top: 0;
-}
-
-.projects img:hover {
-  opacity: 0.8;
-  cursor: pointer;
 }
 
 .palettable img,
@@ -79,6 +80,7 @@ nav {
 .project-info {
   display: flex;
   justify-content: space-between;
+  margin: 30px 0 0 0;
 }
 
 .project-desc {
@@ -108,20 +110,40 @@ nav {
   padding-left: 30px;
 }
 
+.built-with {
+  margin-bottom: 16px;
+}
+
 .technology {
   display: inline-block;
   text-align: center;
   margin: 5px 20px 5px 0;
-  padding: 0 8px;
+  padding: 0 12px;
   background-color: #ffffff;
   border-radius: 10px;
 }
 
 .devicon {
-  /* display: inline-block; */
   vertical-align: middle;
   max-width: 1em;
   margin-right: 5px;
+}
+
+.buttons {
+  padding-top: 16px;
+}
+
+.button a {
+  margin-right: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button a:hover {
+  background-color: #d8d8d8;
 }
 
 
@@ -131,6 +153,7 @@ nav {
 }
 
 .about-me img {
+  width: auto;
   height: 250px;
   padding-right: 30px;
 }
@@ -147,6 +170,38 @@ nav {
 
 
 /* Contact page */
-.contact p {
+.contact h3 {
   margin-top: 0;
+}
+
+.contact input, .contact textarea {
+  display: block;
+  width: 250px;
+}
+
+.input-area {
+  margin-bottom: 5px;
+}
+
+
+/* Footer */
+footer {
+  padding: 20px;
+  width: 100%;
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+footer a {
+  font-size: 16px;
+  margin: 25px 10px 10px 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 12px;
 }
