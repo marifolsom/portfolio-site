@@ -56,7 +56,7 @@ class Projects extends Component {
               </div>
               <div className="buttons">
                 <span className="button">
-                  <a href="" target="_blank">GitHub Repo</a>
+                  <a href="https://github.com/marifolsom/palettable" target="_blank">GitHub Repo</a>
                 </span>
               </div>
             </div>
@@ -148,7 +148,7 @@ class Projects extends Component {
               <img src={require("../../assets/img/app-screenshots/next-episode.png")} alt="Next Episode Homepage"/>
             </a>
             <div>
-              <p className="project-desc">Next Episode is a TV show discovery app for users to explore The Movie Database, a vast community built movie and TV database, to find information regarding their favorite shows and to save them to their favorites.</p>
+              <p className="project-desc">Next Episode was a group project, and is a TV show discovery app for users to explore The Movie Database, a vast community built movie and TV database, to find information regarding their favorite shows and to save them to their favorites.</p>
               <div className="built-with">
                 <div className="technology">
                   <nobr>
@@ -217,7 +217,7 @@ class Projects extends Component {
         <div className="project-section weather-app">
           <h2 className="project-title">MINIMAL WEATHER</h2>
           <div className="project-info">
-            <a href="http://marifolsom-weatherapp.bitballoon.com/" target="_blank">
+            <a href="http://minimal-weather.bitballoon.com/" target="_blank">
               <img src={require("../../assets/img/app-screenshots/weather-app.png")} alt="Weather App Homepage"/>
             </a>
             <div>
@@ -271,10 +271,10 @@ class Projects extends Component {
               </div>
               <div className="buttons">
                 <span className="button">
-                  <a href="http://marifolsom-weatherapp.bitballoon.com/" target="_blank">Visit App</a>
+                  <a href="http://minimal-weather.bitballoon.com/" target="_blank">Visit App</a>
                 </span>
                 <span className="button">
-                  <a href="" target="_blank">GitHub Repo</a>
+                  <a href="https://github.com/marifolsom/minimal-weather" target="_blank">GitHub Repo</a>
                 </span>
               </div>
             </div>
