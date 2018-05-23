@@ -8,7 +8,10 @@ class Footer extends Component {
         <a href="mailto:marifolsom@gmail.com" target="_blank">Email</a>
         <a href="https://www.linkedin.com/in/marisafolsom/" target="_blank">LinkedIn</a>
         <a href="https://github.com/marifolsom/" target="_blank">GitHub</a>
-        <p>© 2018 Marisa Folsom</p>
+        <p>
+          {/* © 2018 Built by Marisa Folsom with React, hosted on GitHub Pages. Typeset in Avenir.<br/> */}
+          © 2018 Marisa Folsom
+        </p>
       </footer>
     )
   }

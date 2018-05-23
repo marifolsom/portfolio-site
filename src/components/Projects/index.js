@@ -11,7 +11,9 @@ class Projects extends Component {
           <div className="project-info">
             <img src={require("../../assets/img/app-screenshots/palettable-discover.png")} alt="Palettable Discover Page"/>
             <div>
-              <p className="project-desc">Palettable is a mobile app that allows users to discover and generate beautiful color palettes. Users can explore pre-made color palettes on the 'Discover' page, as well as create their own color palettes by uploading or taking a picture of their surroundings on the 'Generate' page. Palettable utilizes the phone's built-in camera to capture and extract the prominent colors from an image to create unique color palettes.</p>
+              <p className="project-desc">
+                Palettable is a mobile app that allows users to discover and generate beautiful color palettes. Users can explore pre-made color palettes on the 'Discover' page, as well as create their own color palettes by uploading or taking a picture of their surroundings on the 'Generate' page. Palettable utilizes the phone's built-in camera to capture and extract the prominent colors from an image to create unique color palettes.
+              </p>
               <div className="built-with">
                 <div className="technology">
                   <nobr>
@@ -70,7 +72,9 @@ class Projects extends Component {
               <img src={require("../../assets/img/app-screenshots/calendar-app.png")} alt="Calendar App Homepage"/>
             </a>
             <div>
-              <p className="project-desc">A modern calendar app that allows users to login and create, edit, and delete events.</p>
+              <p className="project-desc">
+                A modern calendar app that allows users to login and create, edit, and delete events.
+              </p>
               <div className="built-with">
                 <div className="technology">
                   <nobr>
@@ -148,7 +152,9 @@ class Projects extends Component {
               <img src={require("../../assets/img/app-screenshots/next-episode.png")} alt="Next Episode Homepage"/>
             </a>
             <div>
-              <p className="project-desc">Next Episode was a group project, and is a TV show discovery app for users to explore The Movie Database, a vast community built movie and TV database, to find information regarding their favorite shows and to save them to their favorites.</p>
+              <p className="project-desc">
+                Next Episode was a group project, and is a TV show discovery app for users to explore The Movie Database, a vast community built movie and TV database, to find information regarding their favorite shows and to save them to their favorites.
+              </p>
               <div className="built-with">
                 <div className="technology">
                   <nobr>
@@ -221,7 +227,9 @@ class Projects extends Component {
               <img src={require("../../assets/img/app-screenshots/weather-app.png")} alt="Weather App Homepage"/>
             </a>
             <div>
-              <p className="project-desc">Minimal Weather is a simply designed weather app. Its minimal interface allows users to enter a zipcode, displaying the current temperature and weather, minimum and maximum temperatures of the day, a five-day forecast, and the ability to toggle between celcius and farenheit.</p>
+              <p className="project-desc">
+                Minimal Weather is a simply designed weather app. Its minimal interface allows users to enter a zipcode, displaying the current temperature and weather, minimum and maximum temperatures of the day, a five-day forecast, and the ability to toggle between celcius and farenheit.
+              </p>
               <div className="built-with">
                 <div className="technology">
                   <nobr>
@@ -288,7 +296,9 @@ class Projects extends Component {
               <img src={require("../../assets/img/app-screenshots/donut-touch.png")} alt="Donut Touch Level 1"/>
             </a>
             <div>
-              <p className="project-desc">Donut Touch is a donut themed cursor game. To win, a user must get from the start zone to the end zone without letting their cursor touch the obstacles or leave the game screen. Donuts are collected for points.</p>
+              <p className="project-desc">
+                Donut Touch is a donut themed cursor game. To win, a user must get from the start zone to the end zone without letting their cursor touch the obstacles or leave the game screen. Donuts are collected for points.
+              </p>
               <div className="built-with">
                 <div className="technology">
                   <nobr>
