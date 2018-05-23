@@ -100,9 +100,9 @@ class Projects extends Component {
                 <span className="button">
                   <a href="https://still-earth-11122.herokuapp.com/" target="_blank">Visit App</a>
                 </span>
-                <span className="button">
+                {/* <span className="button">
                   <a href="" target="_blank">GitHub Repo</a>
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
