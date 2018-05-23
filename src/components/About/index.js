@@ -11,9 +11,10 @@ class About extends Component {
           <p>Hi! I’m Marisa. I'm a digital artist and web developer, passionate about good design and intuitive user experience. I take pleasure in going beyond the basics, delving into different solutions to recreate what I’m envisioning in my head. I believe that there is no end to what you can learn, so long as you put in the effort to learn it.</p>
         </div>
 
+        <h2 className="skills-title">SKILLS</h2>
         <div className="skills-container">
           <div className="skills">
-            <h3>Front-end</h3>
+            <h3>Front-end:</h3>
             <ul>
               <li>Javascript (ES6)</li>
               <li>HTML</li>
@@ -26,7 +27,7 @@ class About extends Component {
           </div>
 
           <div className="skills">
-            <h3>Back-end</h3>
+            <h3>Back-end:</h3>
             <ul>
               <li>Node.js</li>
               <li>Express</li>
@@ -38,7 +39,7 @@ class About extends Component {
           </div>
 
           <div className="skills">
-            <h3>Skills + Tools</h3>
+            <h3>Other:</h3>
             <ul>
               <li>Git</li>
               <li>Chrome Dev Tools</li>

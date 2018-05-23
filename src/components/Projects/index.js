@@ -207,7 +207,7 @@ class Projects extends Component {
                   <a href="https://next-episode-app.herokuapp.com/" target="_blank">Visit App</a>
                 </span>
                 <span className="button">
-                  <a href="" target="_blank">GitHub Repo</a>
+                  <a href="https://github.com/marifolsom/next-episode" target="_blank">GitHub Repo</a>
                 </span>
               </div>
             </div>
@@ -328,7 +328,7 @@ class Projects extends Component {
                   <a href="http://donuttouch.bitballoon.com/" target="_blank">Visit App</a>
                 </span>
                 <span className="button">
-                  <a href="" target="_blank">GitHub Repo</a>
+                  <a href="https://github.com/marifolsom/donut-touch" target="_blank">GitHub Repo</a>
                 </span>
               </div>
             </div>

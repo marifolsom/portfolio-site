@@ -55,7 +55,8 @@ nav {
 
 
 /* Project page */
-.project-title {
+.project-title,
+.skills-title {
   margin-top: 60px;
   padding-bottom: 10px;
   letter-spacing: 4px;
@@ -165,7 +166,10 @@ nav {
 .skills-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+}
+
+.skills h3 {
+  margin-top: 0px;
 }
 
 
