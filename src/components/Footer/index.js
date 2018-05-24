@@ -6,13 +6,13 @@ class Footer extends Component {
     return (
       <footer>
         <a href="mailto:marifolsom@gmail.com" target="_blank">
-          <img className="icon email" src={require("../../assets/img/techology-logos/email.png")} alt="Email Icon" />
+          <img className="icon email" src={require("../../assets/img/techology-logos/email-hover.png")} alt="Email Icon" />
         </a>
         <a href="https://www.linkedin.com/in/marisafolsom/" target="_blank">
-          <img className="icon linkedin" src={require("../../assets/img/techology-logos/linkedin.png")} alt="LinkedIn Icon" />
+          <img className="icon linkedin" src={require("../../assets/img/techology-logos/linkedin-hover.png")} alt="LinkedIn Icon" />
         </a>
         <a href="https://github.com/marifolsom/" target="_blank">
-          <img className="icon github" src={require("../../assets/img/techology-logos/github.png")} alt="GitHub Icon" />
+          <img className="icon github" src={require("../../assets/img/techology-logos/github-hover.png")} alt="GitHub Icon" />
         </a>
         <p>
           © 2018 Marisa Folsom
