@@ -9,7 +9,11 @@ class Projects extends Component {
         <div className="project-section palettable">
           <h2 className="project-title first">PALETTABLE</h2>
           <div className="project-info">
-            <img className="app-screenshot" src={require("../../assets/img/app-screenshots/palettable-discover.png")} alt="Palettable Discover Page"/>
+            {/* <img className="app-screenshot" src={require("../../assets/img/app-screenshots/palettable-discover.png")} alt="Palettable Discover Page"/> */}
+            <video className="app-screenshot" autoPlay loop>
+              <source src={require("../../assets/img/app-screenshots/palettable-recording.m4v")} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <div>
               <p className="project-desc">
                 Palettable is a mobile app that allows users to discover and generate beautiful color palettes. Users can explore pre-made color palettes on the 'Discover' page, as well as create their own color palettes by uploading or taking a picture of their surroundings on the 'Generate' page. Palettable utilizes the phone's built-in camera to capture and extract the prominent colors from an image to create unique color palettes.
