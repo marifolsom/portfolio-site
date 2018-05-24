@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import ScrollUpButton from "react-scroll-up-button";
 import './App.css';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
@@ -15,6 +16,7 @@ class App extends Component {
           <div className="site-container">
             <h1 className="site-title">MARISA FOLSOM</h1>
             <Navbar />
+            <ScrollUpButton />
             <Route exact path="/" render={() => <Redirect to="/projects"/>} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/about" component={About} />
