@@ -63,7 +63,7 @@ class Projects extends Component {
             </a>
             <div>
               <p className="project-desc">
-                A modern calendar app that allows users to login and create, edit, and delete events.
+                A modern calendar app that allows users to login and create, edit, and delete events. This project was also done in a group.
               </p>
               <div className="built-with">
                 <div className="technology">
@@ -119,7 +119,7 @@ class Projects extends Component {
             </a>
             <div>
               <p className="project-desc">
-                Next Episode was a group project, and is a TV show discovery app for users to explore The Movie Database, a vast community built movie and TV database, to find information regarding their favorite shows and to save them to their favorites.
+                Next Episode is a TV show discovery app for users to explore The Movie Database, a vast community built movie and TV database, to find information regarding their favorite shows and to save them to their favorites.
               </p>
               <div className="built-with">
                 <div className="technology">
