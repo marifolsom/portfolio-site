@@ -157,7 +157,7 @@ footer p {
     padding-top: 40px;
   }
 
-  .skills-title {
+  .project-title {
     text-align: center;
   }
 
@@ -196,6 +196,10 @@ footer p {
   .about-me p {
     margin-top: 20px;
     text-align: left;
+  }
+
+  .skills-title {
+    text-align: center;
   }
 }
 
@@ -341,5 +345,11 @@ footer p {
   .calendar-app .app-screenshot,
   .weather-app .app-screenshot {
     padding-left: 30px;
+  }
+
+  .calendar-app .project-desc,
+  .next-episode .project-desc,
+  .donut-touch .project-desc {
+    padding-top: 0px;
   }
 }
