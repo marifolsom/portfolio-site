@@ -10,7 +10,7 @@ class Projects extends Component {
           <div className="project-info">
             {/* <img className="app-screenshot" src={require("../../assets/img/app-screenshots/palettable-discover.png")} alt="Palettable Discover Page"/> */}
             <video className="app-screenshot" autoPlay loop>
-              <source src={require("../../assets/img/app-screenshots/palettable-recording.m4v")} type="video/mp4" />
+              <source src={require("../../assets/mov/palettable-recording.m4v")} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div>
