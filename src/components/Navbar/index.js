@@ -7,7 +7,7 @@ class Navbar extends Component {
       <nav>
         <NavLink exact={true} activeClassName='is-active' to="/projects" className="nav-link">PROJECTS</NavLink>
         <NavLink exact={true} activeClassName='is-active' to="/about" className="nav-link">ABOUT</NavLink>
-        <NavLink exact={true} activeClassName='is-active' to="/contact" className="nav-link">CONTACT</NavLink>
+        <NavLink exact={true} activeClassName='is-active' to="/contact" className="nav-link last">CONTACT</NavLink>
       </nav>
     )
   }
