@@ -2,15 +2,10 @@
 body,
 html {
   font-family: "Avenir", "Helvetica", sans-serif;
+  height: 100%;
   width: 100%;
   background-color: #f7f7f7;
   color: #393E41;
-}
-
-.site-container {
-  width: 70%;
-  margin: 0 auto;
-  padding-top: 40px;
 }
 
 a {
@@ -67,51 +62,6 @@ nav {
   margin-top: 0;
 }
 
-.palettable img,
-.palettable video,
-.weather-app img {
-  height: 500px;
-}
-
-.calendar-app img,
-.next-episode img,
-.donut-touch img {
-  width: 560px;
-}
-
-.project-info {
-  display: flex;
-  justify-content: space-between;
-  margin: 30px 0 0 0;
-}
-
-.project-desc {
-  flex-grow: 1;
-  margin-top: 0;
-}
-
-.palettable .app-screenshot,
-.next-episode .app-screenshot,
-.donut-touch .app-screenshot {
-  padding-right: 30px;
-}
-
-/* Alternate which side the app screenshot is on */
-.calendar-app .project-info,
-.weather-app .project-info {
-  flex-direction: row-reverse;
-}
-
-.calendar-app .project-desc,
-.weather-app .project-desc {
-  order: 1;
-}
-
-.calendar-app .app-screenshot,
-.weather-app .app-screenshot {
-  padding-left: 30px;
-}
-
 .built-with {
   margin-bottom: 16px;
 }
@@ -147,32 +97,6 @@ nav {
 
 .button a:hover {
   background-color: #d8d8d8;
-}
-
-
-/* About page */
-.about-me {
-  display: flex;
-}
-
-.about-me img {
-  width: auto;
-  height: 250px;
-  margin-right: 30px;
-  border-radius: 5px;
-}
-
-.about-me p {
-  margin-top: 0;
-}
-
-.skills-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.skills h3 {
-  margin-top: 0px;
 }
 
 
@@ -213,4 +137,209 @@ footer {
 
 footer p {
   font-size: 12px;
+}
+
+
+/* For phone only */
+@media (max-width: 599px) {
+  /* Project page */
+  .site-title {
+    font-size: 25px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .site-container {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  .skills-title {
+    text-align: center;
+  }
+
+  .project-info {
+    text-align: center;
+    margin: 30px 0 0 0;
+  }
+
+  .palettable img,
+  .palettable video,
+  .weather-app img {
+    height: 400px;
+  }
+
+  .calendar-app img,
+  .next-episode img,
+  .donut-touch img {
+    width: 100%;
+  }
+
+  .project-desc {
+    text-align: left;
+  }
+
+  /* About page */
+  .about-me {
+    text-align: center;
+  }
+
+  .about-me img {
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+  }
+
+  .about-me p {
+    margin-top: 20px;
+    text-align: left;
+  }
+}
+
+
+/* For tablet portrait up */
+@media (min-width: 600px) {
+  /* Project page */
+  .site-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  .palettable img,
+  .palettable video,
+  .weather-app img {
+    height: 400px;
+  }
+
+  .calendar-app img,
+  .next-episode img,
+  .donut-touch img {
+    width: 460px;
+  }
+
+  .project-info {
+    margin: 30px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .calendar-app .project-info,
+  .next-episode .project-info,
+  .donut-touch .project-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-desc {
+    flex-grow: 1;
+    margin-top: 0;
+  }
+
+  .palettable .app-screenshot,
+  .weather-app .app-screenshot {
+    padding-right: 30px;
+  }
+
+  .calendar-app .project-desc,
+  .next-episode .project-desc,
+  .donut-touch .project-desc {
+    padding-top: 20px;
+  }
+
+  /* About page */
+  .about-me {
+    width: 100%;
+    display: flex;
+  }
+
+  .about-me img {
+    width: auto;
+    height: 250px;
+    margin-right: 30px;
+    border-radius: 5px;
+  }
+
+  .about-me p {
+    margin-top: 0;
+  }
+
+  .skills-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .skills h3 {
+    margin-top: 0px;
+  }
+}
+
+
+/* For tablet landscape up */
+@media (min-width: 900px) {
+  /* Project page */
+  .site-container {
+    width: 70%;
+  }
+
+  .palettable img,
+  .palettable video,
+  .weather-app img {
+    height: 500px;
+  }
+
+  .calendar-app img,
+  .next-episode img,
+  .donut-touch img {
+    width: 560px;
+  }
+}
+
+
+/* For desktop up */
+@media (min-width: 1200px) {
+  /* Project page */
+  .project-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+  }
+
+  .project-desc {
+    flex-grow: 1;
+    margin-top: 0;
+  }
+
+  .calendar-app .project-info,
+  .next-episode .project-info,
+  .donut-touch .project-info {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .palettable .app-screenshot,
+  .next-episode .app-screenshot,
+  .donut-touch .app-screenshot {
+    padding-right: 30px;
+  }
+
+  /* Alternate which side the app screenshot is on */
+  .calendar-app .project-info,
+  .weather-app .project-info {
+    flex-direction: row-reverse;
+  }
+
+  .calendar-app .project-desc,
+  .weather-app .project-desc {
+    order: 1;
+  }
+
+  .calendar-app .app-screenshot,
+  .weather-app .app-screenshot {
+    padding-left: 30px;
+  }
 }

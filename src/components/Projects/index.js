@@ -16,7 +16,7 @@ class Projects extends Component {
             </video>
             <div>
               <p className="project-desc">
-                Palettable is a mobile app that allows users to discover and generate beautiful color palettes. Users can explore pre-made color palettes on the 'Discover' page, as well as create their own color palettes by uploading or taking a picture of their surroundings on the 'Generate' page. Palettable utilizes the phone's built-in camera to capture and extract the prominent colors from an image to create unique color palettes.
+                Palettable is a mobile app that allows users to discover and generate beautiful color palettes. Users can explore pre-made color palettes on the "Discover" page, as well as create their own color palettes by uploading or taking a picture of their surroundings on the "Generate" page. Palettable utilizes the phone's built-in camera to capture and extract the prominent colors from an image to create unique color palettes.
               </p>
               <div className="built-with">
                 <div className="technology">
@@ -83,10 +83,10 @@ class Projects extends Component {
                   <img className="logo" src={require("../../assets/img/techology-logos/psql.png")} alt="PostgreSQL Logo" />
                   PostgreSQL
                 </div>
-                <div className="technology">
+                {/* <div className="technology">
                   <img className="logo" src={require("../../assets/img/techology-logos/jwt.png")} alt="JWT Logo" />
                   JSON Web Tokens
-                </div>
+                </div> */}
                 <div className="technology">
                   <img className="logo" src={require("../../assets/img/techology-logos/momentjs.png")} alt="Moment.js Logo" />
                   Moment.js
@@ -104,9 +104,9 @@ class Projects extends Component {
                 <span className="button">
                   <a href="https://still-earth-11122.herokuapp.com/" target="_blank">Visit App</a>
                 </span>
-                {/* <span className="button">
-                  <a href="" target="_blank">GitHub Repo</a>
-                </span> */}
+                <span className="button">
+                  <a href="https://github.com/mattesongrossman/Calendar_App" target="_blank">GitHub Repo</a>
+                </span>
               </div>
             </div>
           </div>
