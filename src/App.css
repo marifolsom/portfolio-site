@@ -1,154 +1,61 @@
-/* General */
-body,
-html {
-  font-family: "Avenir", "Helvetica", sans-serif;
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  background-color: #f7f7f7;
-  color: #393E41;
-}
-
-a {
-  color: #949494;
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #137572;
-}
-
-.container {
-  padding: 70px 0;
-  margin: 0 auto;
-}
-
-
-/* Site title and navbar */
-.site-title,
-.nav-link,
-nav {
-  letter-spacing: 4px;
-  text-align: center;
-  color: #d8d8d8;
-  width: 100%;
-}
-
-.nav-link {
-  padding: 30px 30px 30px 0;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.last {
-  padding-right: 0;
-}
-
-.nav-link:hover {
-  text-decoration: none;
-  color: #137572;
-}
-
-.is-active {
-  color: #393E41;
-}
-
-
-/* Project page */
-.project-title,
-.skills-title {
-  margin-top: 60px;
-  padding-bottom: 10px;
-  letter-spacing: 4px;
-  border-bottom: 1px solid #393E41;
-}
-
-.first {
-  margin-top: 0;
-}
-
-.built-with {
-  margin-bottom: 16px;
-}
-
-.technology {
-  display: inline-block;
-  text-align: center;
-  margin: 5px 20px 5px 0;
-  padding: 0 12px;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-
-.logo {
-  vertical-align: middle;
-  max-height: 16px;
-  max-width: 16px;
-  margin-right: 5px;
-}
-
-.buttons {
-  padding-top: 16px;
-}
-
-.button a {
-  margin-right: 10px;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: #eaeaea;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.button a:hover {
-  background-color: #d8d8d8;
-}
-
-
-/* Contact page */
-.contact h3 {
-  margin-top: 0;
-}
-
-.contact input, .contact textarea {
-  display: block;
-  width: 250px;
-}
-
-.input-area {
-  margin-bottom: 5px;
-}
-
-
-/* Footer */
-footer {
-  padding: 20px 0;
-  width: 100%;
-  background-color: #eaeaea;
-  text-align: center;
-}
-
-
-.icon {
-  max-width: 36px;
-  margin: 8px 13px;
-  text-decoration: none;
-  filter: grayscale(100%);
-}
-
-.icon:hover {
-  filter: grayscale(0%);
-}
-
-footer p {
-  font-size: 12px;
-}
-
-
 /* For phone only */
 @media (max-width: 599px) {
+  /* General */
+  body,
+  html {
+    font-family: "Avenir", "Helvetica", sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #393E41;
+  }
+
+  a {
+    color: #949494;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #137572;
+  }
+
+  .container {
+    padding: 70px 0;
+    margin: 0 auto;
+  }
+
+  /* Site title and navbar */
+  .site-title,
+  .nav-link,
+  nav {
+    letter-spacing: 4px;
+    text-align: center;
+    color: #d8d8d8;
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 30px 30px 30px 0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .last {
+    padding-right: 0;
+  }
+
+  .nav-link:hover {
+    text-decoration: none;
+    color: #137572;
+  }
+
+  .is-active {
+    color: #393E41;
+  }
+
   /* Project page */
   .site-title {
     font-size: 25px;
@@ -189,6 +96,55 @@ footer p {
     text-align: justify;
   }
 
+  .project-title,
+  .skills-title {
+    margin-top: 60px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    border-bottom: 1px solid #393E41;
+  }
+
+  .first {
+    margin-top: 0;
+  }
+
+  .built-with {
+    margin-bottom: 16px;
+  }
+
+  .technology {
+    display: inline-block;
+    text-align: center;
+    margin: 5px 20px 5px 0;
+    padding: 0 12px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .logo {
+    vertical-align: middle;
+    max-height: 16px;
+    max-width: 16px;
+    margin-right: 5px;
+  }
+
+  .buttons {
+    padding-top: 16px;
+  }
+
+  .button a {
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .button a:hover {
+    background-color: #d8d8d8;
+  }
+
   /* About page */
   .about-me {
     text-align: center;
@@ -208,11 +164,104 @@ footer p {
   .skills-title {
     text-align: center;
   }
+
+  /* Contact page */
+  .contact h3 {
+    margin-top: 0;
+  }
+
+  .contact input, .contact textarea {
+    display: block;
+    width: 250px;
+  }
+
+  .input-area {
+    margin-bottom: 5px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 20px 0;
+    width: 100%;
+    background-color: #eaeaea;
+    text-align: center;
+  }
+
+  .icon {
+    max-width: 36px;
+    margin: 8px 13px;
+    text-decoration: none;
+    filter: grayscale(100%);
+  }
+
+  .icon:hover {
+    filter: grayscale(0%);
+  }
+
+  footer p {
+    font-size: 12px;
+  }
 }
 
 
 /* For tablet portrait up */
 @media (min-width: 600px) {
+  /* General */
+  body,
+  html {
+    font-family: "Avenir", "Helvetica", sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #393E41;
+  }
+
+  a {
+    color: #949494;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #137572;
+  }
+
+  .container {
+    padding: 70px 0;
+    margin: 0 auto;
+  }
+
+  /* Site title and navbar */
+  .site-title,
+  .nav-link,
+  nav {
+    letter-spacing: 4px;
+    text-align: center;
+    color: #d8d8d8;
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 30px 30px 30px 0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .last {
+    padding-right: 0;
+  }
+
+  .nav-link:hover {
+    text-decoration: none;
+    color: #137572;
+  }
+
+  .is-active {
+    color: #393E41;
+  }
+
   /* Project page */
   .site-container {
     width: 80%;
@@ -268,6 +317,55 @@ footer p {
     padding-top: 20px;
   }
 
+  .project-title,
+  .skills-title {
+    margin-top: 60px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    border-bottom: 1px solid #393E41;
+  }
+
+  .first {
+    margin-top: 0;
+  }
+
+  .built-with {
+    margin-bottom: 16px;
+  }
+
+  .technology {
+    display: inline-block;
+    text-align: center;
+    margin: 5px 20px 5px 0;
+    padding: 0 12px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+
+  .logo {
+    vertical-align: middle;
+    max-height: 16px;
+    max-width: 16px;
+    margin-right: 5px;
+  }
+
+  .buttons {
+    padding-top: 16px;
+  }
+
+  .button a {
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .button a:hover {
+    background-color: #d8d8d8;
+  }
+
   /* About page */
   .about-me {
     width: 100%;
@@ -292,6 +390,44 @@ footer p {
 
   .skills h3 {
     margin-top: 0px;
+  }
+
+  /* Contact page */
+  .contact h3 {
+    margin-top: 0;
+  }
+
+  .contact input, .contact textarea {
+    display: block;
+    width: 250px;
+  }
+
+  .input-area {
+    margin-bottom: 5px;
+  }
+
+
+  /* Footer */
+  footer {
+    padding: 20px 0;
+    width: 100%;
+    background-color: #eaeaea;
+    text-align: center;
+  }
+
+  .icon {
+    max-width: 36px;
+    margin: 8px 13px;
+    text-decoration: none;
+    filter: grayscale(100%);
+  }
+
+  .icon:hover {
+    filter: grayscale(0%);
+  }
+
+  footer p {
+    font-size: 12px;
   }
 }
 
