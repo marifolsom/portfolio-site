@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 
 class Footer extends Component {
   render() {
     return (
       <footer>
-        <a href="mailto:marifolsom@gmail.com" target="_blank">
+        <a href="mailto:marifolsom@gmail.com" target="_blank" rel="noopener noreferrer">
           <img className="icon email" src={require("../../assets/img/techology-logos/email-hover.png")} alt="Email Icon" />
         </a>
-        <a href="https://www.linkedin.com/in/marisafolsom/" target="_blank">
+        <a href="https://www.linkedin.com/in/marisafolsom/" target="_blank" rel="noopener noreferrer">
           <img className="icon linkedin" src={require("../../assets/img/techology-logos/linkedin-hover.png")} alt="LinkedIn Icon" />
         </a>
-        <a href="https://github.com/marifolsom/" target="_blank">
+        <a href="https://github.com/marifolsom/" target="_blank" rel="noopener noreferrer">
           <img className="icon github" src={require("../../assets/img/techology-logos/github-hover.png")} alt="GitHub Icon" />
         </a>
         <p>

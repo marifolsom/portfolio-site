@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class Projects extends Component {
   render() {
@@ -49,7 +48,7 @@ class Projects extends Component {
               </div>
               <div className="buttons">
                 <span className="button">
-                  <a href="https://github.com/marifolsom/palettable" target="_blank">GitHub Repo</a>
+                  <a href="https://github.com/marifolsom/palettable" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </span>
               </div>
             </div>
@@ -59,7 +58,7 @@ class Projects extends Component {
         <div className="project-section calendar-app">
           <h2 className="project-title">CALENDAR</h2>
           <div className="project-info">
-            <a href="https://still-earth-11122.herokuapp.com/" target="_blank">
+            <a href="https://still-earth-11122.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img className="app-screenshot" src={require("../../assets/img/app-screenshots/calendar-app.png")} alt="Calendar App Homepage"/>
             </a>
             <div>
@@ -102,10 +101,10 @@ class Projects extends Component {
               </div>
               <div className="buttons">
                 <span className="button">
-                  <a href="https://still-earth-11122.herokuapp.com/" target="_blank">Visit App</a>
+                  <a href="https://still-earth-11122.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit App</a>
                 </span>
                 <span className="button">
-                  <a href="https://github.com/mattesongrossman/Calendar_App" target="_blank">GitHub Repo</a>
+                  <a href="https://github.com/mattesongrossman/Calendar_App" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </span>
               </div>
             </div>
@@ -115,7 +114,7 @@ class Projects extends Component {
         <div className="project-section next-episode">
           <h2 className="project-title">NEXT EPISODE</h2>
           <div className="project-info">
-            <a href="https://next-episode-app.herokuapp.com/" target="_blank">
+            <a href="https://next-episode-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img className="app-screenshot" src={require("../../assets/img/app-screenshots/next-episode.png")} alt="Next Episode Homepage"/>
             </a>
             <div>
@@ -156,10 +155,10 @@ class Projects extends Component {
               </div>
               <div className="buttons">
                 <span className="button">
-                  <a href="https://next-episode-app.herokuapp.com/" target="_blank">Visit App</a>
+                  <a href="https://next-episode-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit App</a>
                 </span>
                 <span className="button">
-                  <a href="https://github.com/marifolsom/next-episode" target="_blank">GitHub Repo</a>
+                  <a href="https://github.com/marifolsom/next-episode" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </span>
               </div>
             </div>
@@ -169,7 +168,7 @@ class Projects extends Component {
         <div className="project-section weather-app">
           <h2 className="project-title">MINIMAL WEATHER</h2>
           <div className="project-info">
-            <a href="http://minimal-weather.bitballoon.com/" target="_blank">
+            <a href="http://minimal-weather.bitballoon.com/" target="_blank" rel="noopener noreferrer">
               <img className="app-screenshot" src={require("../../assets/img/app-screenshots/weather-app.png")} alt="Weather App Homepage"/>
             </a>
             <div>
@@ -203,10 +202,10 @@ class Projects extends Component {
               </div>
               <div className="buttons">
                 <span className="button">
-                  <a href="http://minimal-weather.bitballoon.com/" target="_blank">Visit App</a>
+                  <a href="http://minimal-weather.bitballoon.com/" target="_blank" rel="noopener noreferrer">Visit App</a>
                 </span>
                 <span className="button">
-                  <a href="https://github.com/marifolsom/minimal-weather" target="_blank">GitHub Repo</a>
+                  <a href="https://github.com/marifolsom/minimal-weather" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </span>
               </div>
             </div>
@@ -216,7 +215,7 @@ class Projects extends Component {
         <div className="project-section donut-touch">
           <h2 className="project-title">DONUT TOUCH</h2>
           <div className="project-info">
-            <a href="http://donuttouch.bitballoon.com/" target="_blank">
+            <a href="http://donuttouch.bitballoon.com/" target="_blank" rel="noopener noreferrer">
               <img className="app-screenshot" src={require("../../assets/img/app-screenshots/donut-touch.png")} alt="Donut Touch Level 1"/>
             </a>
             <div>
@@ -243,10 +242,10 @@ class Projects extends Component {
               </div>
               <div className="buttons">
                 <span className="button">
-                  <a href="http://donuttouch.bitballoon.com/" target="_blank">Visit App</a>
+                  <a href="http://donuttouch.bitballoon.com/" target="_blank" rel="noopener noreferrer">Visit App</a>
                 </span>
                 <span className="button">
-                  <a href="https://github.com/marifolsom/donut-touch" target="_blank">GitHub Repo</a>
+                  <a href="https://github.com/marifolsom/donut-touch" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </span>
               </div>
             </div>
