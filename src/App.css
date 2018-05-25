@@ -179,7 +179,7 @@ footer p {
   }
 
   .project-desc {
-    text-align: left;
+    text-align: justify;
   }
 
   /* About page */
@@ -195,7 +195,7 @@ footer p {
 
   .about-me p {
     margin-top: 20px;
-    text-align: left;
+    text-align: justify;
   }
 
   .skills-title {
@@ -237,6 +237,12 @@ footer p {
   .donut-touch .project-info {
     flex-direction: column;
     text-align: center;
+  }
+
+  .calendar-app .project-desc,
+  .next-episode .project-desc,
+  .donut-touch .project-desc {
+    text-align: justify;
   }
 
   .project-desc {
