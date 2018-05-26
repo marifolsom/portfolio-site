@@ -16,7 +16,7 @@ class About extends Component {
             </p>
             <div className="buttons">
               <span className="button">
-                <a href="https://drive.google.com/open?id=10yK-IKRxk7TEWeXqYXhVsAb7eIzVULhv" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="https://drive.google.com/open?id=1VKe_tTJwYE863CECfg3xnNNjU4ygf9v0" target="_blank" rel="noopener noreferrer">Resume</a>
               </span>
             </div>
           </div>
