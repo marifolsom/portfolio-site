@@ -17,7 +17,7 @@ class Footer extends Component {
           © 2018 Marisa Folsom
         </p>
         <p>
-          Built with React, hosted on GitHub Pages. Typeset in Avenir.
+          Built with React, hosted on Google Cloud. Typeset in Avenir.
         </p>
       </footer>
     )
