@@ -25,9 +25,9 @@ class About extends Component {
         <h2 className="skills-title">SKILLS</h2>
         <div className="skills-container">
           <div className="skills">
-            <h3>Front-end:</h3>
+            <h3>Front End:</h3>
             <ul>
-              <li>Javascript (ES6)</li>
+              <li>Javascript</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>React</li>
@@ -38,7 +38,7 @@ class About extends Component {
           </div>
 
           <div className="skills">
-            <h3>Back-end:</h3>
+            <h3>Back End:</h3>
             <ul>
               <li>Node.js</li>
               <li>Express</li>
