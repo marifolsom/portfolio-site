@@ -9,7 +9,7 @@ class About extends Component {
           <img src={require("../../assets/img/about.JPG")} alt="Weather App Homepage"/>
           <div>
             <p>
-              Hi! I’m Marisa. I'm a digital artist and web developer, passionate about good design and intuitive user experience. I take pleasure in going beyond the basics, delving into different solutions to recreate what I’m envisioning in my head. I believe that there is no end to what you can learn, so long as you put in the effort to learn it.
+              Hi! I’m Marisa. I'm a software engineer with a creative background in design and photography, passionate about good design and intuitive user experience. I'm an excellent problem solver, diligent about finding the perfect solution, while being pragmatic and keeping the overall goals of the project in mind. I'm also highly skilled in the research and learning of new technologies, and am always enthusiastic about taking on new challenges.
             </p>
             <p>
               Outside of code, I enjoy creating in other ways. Check out some of my photography <a href="https://marisafolsom.format.com/" target="_blank" rel="noopener noreferrer">here</a>!
