@@ -16,7 +16,7 @@ class About extends Component {
             </p>
             <div className="buttons">
               <span className="button">
-                <a href="https://drive.google.com/open?id=1U225oAvid-Oe_5f2DrdV2xSzZiq9wXWn" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="https://drive.google.com/open?id=1NJtSpg9FDmX9odU7nTrsmeWP2VCYMQUt" target="_blank" rel="noopener noreferrer">Resume</a>
               </span>
             </div>
           </div>
@@ -33,7 +33,6 @@ class About extends Component {
               <li>React</li>
               <li>React Native</li>
               <li>jQuery</li>
-              <li>AJAX</li>
             </ul>
           </div>
 
@@ -46,6 +45,7 @@ class About extends Component {
               <li>SQL (PostgreSQL, MySQL)</li>
               <li>Firebase</li>
               <li>PHP</li>
+              <li>REST</li>
             </ul>
           </div>
 
