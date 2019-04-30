@@ -11,9 +11,6 @@ class About extends Component {
             <p>
               Hi! I’m Marisa. I'm a software engineer with a creative background in design and photography, passionate about good design and intuitive user experience. I'm an excellent problem solver, diligent about finding the perfect solution, while being pragmatic and keeping the overall goals of the project in mind. I'm also highly skilled in the research and learning of new technologies, and am always enthusiastic about taking on new challenges.
             </p>
-            <p>
-              Outside of code, I enjoy creating in other ways. Check out some of my photography <a href="https://marisafolsom.format.com/" target="_blank" rel="noopener noreferrer">here</a>!
-            </p>
             <div className="buttons">
               <span className="button">
                 <a href="https://drive.google.com/open?id=1NJtSpg9FDmX9odU7nTrsmeWP2VCYMQUt" target="_blank" rel="noopener noreferrer">Resume</a>
